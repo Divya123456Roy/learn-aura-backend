@@ -1,4 +1,4 @@
-const Assignment = require('../models/assignmentModel');
+const Assignment = require('../Models/assignmentModel');
 const asyncHandler = require('express-async-handler');
 const Module = require('../Models/moduleModel');
 const Course = require('../Models/courseModel');
