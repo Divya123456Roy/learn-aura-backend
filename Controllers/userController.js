@@ -7,7 +7,7 @@ const Notification = require('../Models/notificationModel');
 const Feed = require('../Models/feedModel');
 const sendEmail = require('../utils/sendEmail');
 const crypto = require('crypto');
-const Post = require('../Models/postModel');
+const Post = require('../Models/PostModel');
 
 const userController = {
   // Register a new user
