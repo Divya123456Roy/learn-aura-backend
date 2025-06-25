@@ -3,7 +3,7 @@ const asyncHandler = require('express-async-handler');
 const AssignmentSubmission = require('../Models/assignmentSubmissionModel');
 const Module = require('../Models/moduleModel');
 const Course = require('../Models/courseModel');
-const Assignment = require('../models/assignmentModel');
+const Assignment = require('../Models/assignmentModel');
 const { default: mongoose } = require('mongoose');
 const Enrollment = require('../Models/enrollmentModel');
 

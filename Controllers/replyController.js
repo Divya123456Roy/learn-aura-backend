@@ -1,6 +1,6 @@
 // replyController.js
 const Reply = require('../Models/replyModel');
-const Post = require('../Models/postModel');
+const Post = require('../Models/PostModel');
 const asyncHandler = require('express-async-handler');
 const User = require('../Models/userModel');
 const { default: mongoose } = require('mongoose');

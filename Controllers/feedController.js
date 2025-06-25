@@ -1,7 +1,7 @@
 // feedController.js
 const asyncHandler = require('express-async-handler');
 const Feed = require('../Models/feedModel');
-const Post = require('../Models/postModel');
+const Post = require('../Models/PostModel');
 const Reply = require('../Models/replyModel');
 
 const feedController = {
